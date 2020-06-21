@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Tables</title>
+</head>
+<body>
+<table>
+<tr><td>One<td>Two<td>Three</td></tr>
+<tr><td>Four<td>Five<td>Six</td></tr>
+<tr><td>Seven<td>Eight<td>Nine<td></tr>
+</table>
+</body>
+</html>

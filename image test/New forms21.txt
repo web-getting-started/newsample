@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Forms try</title>
+</head>
+<body>
+<form>
+<input name="Search" type="text" placeholder="Google Search">
+<input type="submit" value="Search">
+<br>
+<label>First name</label>
+<input name="First name" type="text" autofocus required>
+<br>
+<label>Second name</label>
+<input name="Second name" type="text" required>
+<br>
+<label>Email</label>
+<input name="email" type="email" required>
+<br>
+<label>Personal Web page</label>
+<input name="Web page" type="url">
+<br>
+<label>Browsing Hours</label>
+<input name="range" max="30" min="8" optimum="20" value="0">
+<br>
+<label>My List</label>
+<input type="text" list="Mylist">
+<datalist id="Mylist">
+<option label="Red" value="Red">
+<option label="Blue" value="Blue">
+<option label="Black" value="Black">
+<option label="Green" value="Green">
+</datalist>
+<p><b>Click here for additional information</b></p>
+<details open="Click here">
+<p>This is the additional information that is displayed here, so that it is valid.
+Let's get this party started</p>
+</details>
+</form>
+</body>
+</html>
+
+
+
+
